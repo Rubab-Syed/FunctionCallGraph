@@ -1,4 +1,4 @@
-This assignment is a simple implementation of making function call flow. I have used Antlr4 as my parser generator and Python as my source language. It looks at the file according to my given lexer and parser rules. Parses function definitions and detect function calls and as a result generate a dot file which can be viewed using graphviz. I have written grammar for Python2 which can be seen in "python2.g4". It is compiled using:
+This assignment is a simple implementation of making function call flow. I have used Antlr4 as my parser generator and Python as my source language. It looks at the file according to my given lexer and parser rules. Parses function definitions and detect function calls and as a result generate a dot file which can be viewed using graphviz. I have written grammar for Python2 which can be seen in "python2.g4". 
 
 Testing:
 
