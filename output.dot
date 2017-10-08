@@ -1,0 +1,18 @@
+
+digraph G {
+  ranksep=.25;
+  edge [arrowsize=.5]
+  node [shape=circle, fontname="ArialNarrow",
+        fontsize=10, fixedsize=true, height=1];
+
+  hello;showModuleName;getModuleFile;f1;f2;f;world;add;mul;main;
+  Module -> hello;
+  showModuleName -> getModuleFile;
+  f1 -> f2;
+  hello -> world;
+  world -> add;
+  main -> hello;
+  main -> world;
+  main -> mul;
+
+}
